@@ -1,0 +1,28 @@
+.hero {
+    width: 80%;
+    margin: 0 100px;
+}
+
+.hero > div {
+    display: flex;
+    gap: 10px;
+}
+.hero h1 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+.hero .product-card {
+    position: relative;
+    flex-grow: 1;
+}
+.hero .product-card img {
+    width: 100%;
+}
+.hero .product-card svg {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    /* top, left, bottom, right */
+}
+
+
