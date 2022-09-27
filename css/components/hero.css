@@ -1,8 +1,7 @@
 .hero {
     width: 80%;
-    margin: 0 100px;
-}
-
+    margin: 0 auto 20px auto;
+  }
 .hero > div {
     display: flex;
     gap: 10px;
@@ -20,8 +19,8 @@
 }
 .hero .product-card svg {
     position: absolute;
-    top: 15px;
-    left: 15px;
+    bottom: 15px;
+    right: 15px;
     /* top, left, bottom, right */
 }
 
