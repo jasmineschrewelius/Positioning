@@ -1,4 +1,7 @@
 .site-header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
     display: flex;
     padding: 20px 100px;
     /* centrera längs cross axis (vertikalt) */
@@ -8,9 +11,9 @@
     border-bottom: 1px solid darkgray;
     margin-bottom: 20px;  
   }
-
-.site-header input {
-    border-radius: 10px;
-    padding: 10px;
-}
-
+  
+  .site-header input {
+      border-radius: 10px;
+      padding: 10px;
+  }
+  
