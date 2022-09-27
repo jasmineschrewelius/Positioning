@@ -1,0 +1,16 @@
+.icon-menu {
+    position: sticky;
+    top: 100px;
+    left: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 50px;
+    font-size: 1.5em;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.icon-menu {
+    list-style: none;
+  }
